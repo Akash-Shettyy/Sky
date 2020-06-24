@@ -11,7 +11,7 @@ while number_of_guess < 5 :
 		guess= int(input("guess the number,again:",))
 		number_of_guess=number_of_guess + 1
 		
-	elif guess > number :
+	elif guess > number :# change made
 		print("you need to guess lower number")
 		print("you got " + str(5-number_of_guess)+"  guess left")  
 		guess =int(input("guess the number:",))
